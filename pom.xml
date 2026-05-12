@@ -2,14 +2,14 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example</groupId>
-  <artifactId>Mavenprojectexam</artifactId>
+  <artifactId>MyMaven</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>Mavenprojectexam</name>
+  <name>MyMaven</name>
   <url>http://maven.apache.org</url>
   <properties>
-    <compiler.source.version>7</compiler.source.version>
-    <compiler.target.version>7.1</compiler.target.version>
+  	<maven.compiler.source>7</maven.compiler.source>
+  	<maven.compiler.target>1.7</maven.compiler.target>
   </properties>
   <dependencies>
     <dependency>
